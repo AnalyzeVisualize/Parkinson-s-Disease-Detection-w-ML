@@ -34,7 +34,11 @@ Insights into key indicators and patterns associated with Parkinson's disease pr
 
 A framework for further research in medical diagnosis using machine learning.
 
-
+## Contributors
+- **Tim Cao**
+- **Reianna Liu**
+- **Alec Druggan**
+- **Cindy Mateus**
 
 
 
