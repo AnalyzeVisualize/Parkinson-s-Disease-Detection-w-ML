@@ -44,11 +44,13 @@ A framework for further research in medical diagnosis using machine learning.
 
 
 ## Citation
-https://archive.ics.uci.edu/dataset/174/parkinsons
+
 
 A Tsanas, MA Little, PE McSharry, LO Ramig (2009)
 'Accurate telemonitoring of Parkinson.s disease progression by non-invasive 
 speech tests',
 IEEE Transactions on Biomedical Engineering
+https://archive.ics.uci.edu/dataset/174/parkinsons
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3051371/
 
 Note: “H&Y” refers to the Hoehn and Yahr PD stage, where higher values indicate greater level of disability.
