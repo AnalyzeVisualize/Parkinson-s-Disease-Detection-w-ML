@@ -19,9 +19,9 @@ The dataset was created by Max Little of the University of Oxford, in collaborat
  
 **Data Set Information:**
 
-●	Each column represents a specific voice measure.
-●	The 'name' column identifies the patient, and the 'status' column indicates the health status (0 for healthy, 1 for PD).
-●	There are approximately six recordings per patient.
+*	Each column represents a specific voice measure.
+* The 'name' column identifies the patient, and the 'status' column indicates the health status (0 for healthy, 1 for PD).
+* There are approximately six recordings per patient.
 
            For further information or comments, please contact Max Little (littlem '@'                robots.ox.ac.uk).
 
@@ -35,9 +35,9 @@ IEEE Transactions on Biomedical Engineering (to appear).
 **Source:**
 The dataset was created by Athanasios Tsanas and Max Little of the University of Oxford, in collaboration with 10 medical centers in the US and Intel Corporation. The study used a telemonitoring device to record voice signals from 42 people with early-stage Parkinson's disease.
 **Data Set Information:**
-●	Biomedical voice measurements from 42 individuals with Parkinson's disease.
-●	Columns include subject number, age, gender, time interval, motor UPDRS, total UPDRS, and 16 voice measures.
-●	The goal is to predict motor and total UPDRS scores from the voice measures.
+* Biomedical voice measurements from 42 individuals with Parkinson's disease.
+* Columns include subject number, age, gender, time interval, motor UPDRS, total UPDRS, and 16 voice measures.
+* The goal is to predict motor and total UPDRS scores from the voice measures.
 For further information or comments, please contact Athanasios Tsanas (tsanasthanasis '@' gmail.com) or Max Little (littlem '@' physics.ox.ac.uk).
 # Data Processing
 Once we have extracted the files from the source, we then make use of SQLite  to construct a database which we then extract the data and create data frames from.
