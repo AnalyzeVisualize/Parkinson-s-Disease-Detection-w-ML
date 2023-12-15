@@ -39,7 +39,9 @@ The dataset was created by Athanasios Tsanas and Max Little of the University of
 * Biomedical voice measurements from 42 individuals with Parkinson's disease.
 * Columns include subject number, age, gender, time interval, motor UPDRS, total UPDRS, and 16 voice measures.
 * The goal is to predict motor and total UPDRS scores from the voice measures.
+  
 For further information or comments, please contact Athanasios Tsanas (tsanasthanasis '@' gmail.com) or Max Little (littlem '@' physics.ox.ac.uk).
+
 # Data Processing
 Once we have extracted the files from the source, we then make use of SQLite  to construct a database which we then extract the data and create data frames from.
 We create tables with both of our separate datasets, as they store different values and data points. 
