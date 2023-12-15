@@ -56,13 +56,13 @@ A neural network model is built using TensorFlow and Keras, with a dense archite
 The performance of all models is evaluated based on Mean Absolute Error (MAE) and R-squared (R2) metrics
 Mean Absolute Error Visualization, Per Model
  
-
+<img src="./pic/prediction MAE.png" width="400" height="250">
 
 
 
 
 R2 Visualization, Per Model
-
+<img src="./pic/prediction r2.png" width="400" height="250">
  
 
 # Parkinson's Disease Classification with Machine Learning
@@ -96,12 +96,19 @@ We created several different models to see which would best allow us to create s
 ●	Prints the model summary, loss, and accuracy results.
 ●	Makes predictions, prints accuracy score, confusion matrix, and classification report.
 ●	Visualizes the confusion matrix with a heatmap.
+<img src="./pic/classification correlation matrix.png">
+
 ## 4. Model Visualizations
 ●	Displays confusion matrix heatmaps for each model.
   
+<img src="./pic/CM of LR.png">
+<img src="./pic/CM of RF.png">
+<img src="./pic/CM of SVM.png">
+<img src="./pic/CM of NN.png">
 
 ## Model Comparison
 In the evaluation of various machine learning models for detecting Parkinson's disease, four different classifiers were employed: Logistic Regression, Random Forest Classifier, Support Vector Machine (SVM), and Neural Network. The summary of predictions and accuracy scores for each model is presented below:
+<img src="./Accuracy.png">
  
  
 ### Other Comparisons Before Model Selection
@@ -113,7 +120,7 @@ Optimizations regarding tuning are detailed in the following slides. Additionall
 Here is the final classification report for the model:
  
 Optimized Sequential Model Parameters
-
+<img src="./pic/report.png">
  
 ## Conclusion:
 The results demonstrate that the Neural Network model achieved the highest accuracy among the evaluated models, with an accuracy score of 95.92%. The Random Forest Classifier also performed well, yielding an accuracy score of 89.80%. The Support Vector Machine (SVM) and Logistic Regression models exhibited slightly lower accuracy scores of 87.76% and 85.71%, respectively.
