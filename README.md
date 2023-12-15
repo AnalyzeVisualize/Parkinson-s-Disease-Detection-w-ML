@@ -28,6 +28,7 @@ The dataset was created by Max Little of the University of Oxford, in collaborat
 
 
 ### Dataset 2: 'parkinsons_updrs.data'
+
 **Citation:**
 "Accurate telemonitoring of Parkinson's disease progression by non-invasive speech tests"
 Tsanas A, Little MA, McSharry PE, Ramig LO.
@@ -68,36 +69,36 @@ R2 Visualization, Per Model
 # Parkinson's Disease Classification with Machine Learning
 This repository contains a classification analysis for detecting Parkinson's disease using machine learning models. The dataset used is stored in the file 'Data/parkinsons.data'. The repository includes Python code that performs the following tasks:
 ## 1. Data Preprocessing
-●	Reads the dataset into a pandas DataFrame.
-●	Removes the 'name' column from the DataFrame.
+* Reads the dataset into a pandas DataFrame.
+*	Removes the 'name' column from the DataFrame.
 ## 2. Exploratory Data Analysis
-●	Visualizes the correlation matrix of selected features using a heatmap.
+*	Visualizes the correlation matrix of selected features using a heatmap.
 ## 3. Model Building
 We created several different models to see which would best allow us to create status classifications with the dataset. Those models were the following:
 
 ### Logistic Regression
-●	Splits the data into training and testing sets.
-●	Standardizes the data using the StandardScaler.
-●	Creates and trains a Logistic Regression model.
-●	Prints training data score, makes predictions, and prints accuracy score, confusion matrix, and classification report.
-●	Visualizes the confusion matrix with a heatmap.
+*	Splits the data into training and testing sets.
+*	Standardizes the data using the StandardScaler.
+*	Creates and trains a Logistic Regression model.
+*	Prints training data score, makes predictions, and prints accuracy score, confusion matrix, and classification report.
+*	Visualizes the confusion matrix with a heatmap.
 ### Random Forest Classifier
-●	Creates and trains a Random Forest Classifier.
-●	Prints training and testing data scores.
-●	Makes predictions and prints accuracy score, confusion matrix, and classification report.
-●	Visualizes the confusion matrix with a heatmap.
+*	Creates and trains a Random Forest Classifier.
+*	Prints training and testing data scores.
+*	Makes predictions and prints accuracy score, confusion matrix, and classification report.
+*	Visualizes the confusion matrix with a heatmap.
 ### Support Vector Machine (SVM)
-●	Creates and trains a Support Vector Machine (SVM) classifier.
-●	Prints training data score, makes predictions, and prints accuracy score, confusion matrix, and classification report.
-●	Visualizes the confusion matrix with a heatmap.
+*	Creates and trains a Support Vector Machine (SVM) classifier.
+*	Prints training data score, makes predictions, and prints accuracy score, confusion matrix, and classification report.
+*	Visualizes the confusion matrix with a heatmap.
 ## Neural Network
-●	Uses Keras Tuner to find optimal hyperparameters for a neural network model.
-●	Creates and trains a neural network model using TensorFlow and Keras.
-●	Prints the model summary, loss, and accuracy results.
-●	Makes predictions, prints accuracy score, confusion matrix, and classification report.
-●	Visualizes the confusion matrix with a heatmap.
+*	Uses Keras Tuner to find optimal hyperparameters for a neural network model.
+*	Creates and trains a neural network model using TensorFlow and Keras.
+*	Prints the model summary, loss, and accuracy results.
+*	Makes predictions, prints accuracy score, confusion matrix, and classification report.
+*	Visualizes the confusion matrix with a heatmap.
 ## 4. Model Visualizations
-●	Displays confusion matrix heatmaps for each model.
+*	Displays confusion matrix heatmaps for each model.
   
 
 ## Model Comparison
