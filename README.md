@@ -65,6 +65,7 @@ Mean Absolute Error Visualization, Per Model
 
 
 R2 Visualization, Per Model
+
 <img src="./pic/prediction r2.png" width="400" height="250">
  
 
@@ -100,6 +101,7 @@ We created several different models to see which would best allow us to create s
 ●	Prints the model summary, loss, and accuracy results.
 ●	Makes predictions, prints accuracy score, confusion matrix, and classification report.
 ●	Visualizes the confusion matrix with a heatmap.
+
 <img src="./pic/classification correlation matrix.png">
 
 =======
@@ -113,12 +115,16 @@ We created several different models to see which would best allow us to create s
 *	Displays confusion matrix heatmaps for each model.
   
 <img src="./pic/CM of LR.png">
+
 <img src="./pic/CM of RF.png">
+
 <img src="./pic/CM of SVM.png">
+
 <img src="./pic/CM of NN.png">
 
 ## Model Comparison
 In the evaluation of various machine learning models for detecting Parkinson's disease, four different classifiers were employed: Logistic Regression, Random Forest Classifier, Support Vector Machine (SVM), and Neural Network. The summary of predictions and accuracy scores for each model is presented below:
+
 <img src="./Accuracy.png">
  
  
@@ -130,7 +136,8 @@ In order to optimize our neural network we made use of the Keras Tuner python li
 Optimizations regarding tuning are detailed in the following slides. Additionally, dense layers where all nodes were connected to preceding layers were found to provide the highest accuracy.
 Here is the final classification report for the model:
  
-Optimized Sequential Model Parameters
+Optimized Sequential Model Parameters:
+
 <img src="./pic/report.png">
  
 ## Conclusion:
