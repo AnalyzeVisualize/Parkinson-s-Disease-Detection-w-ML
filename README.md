@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project goal of this project is to be able to use voice recordings to both classify the status of and, if they were to have the disease utilizing machine learning techniques. The dataset used is sourced from the UCI Machine Learning Repository, containing various biomedical voice measurements from individuals with Parkinson's disease. 
+This project goal of this project is to be able to use voice recordings to both classify the status of and, if they were to have the disease utilizing machine learning techniques. The dataset is sourced from the UCI Machine Learning Repository, containing various biomedical voice measurements from individuals with Parkinson's disease. 
 
 ## Data Description
 
@@ -23,7 +23,7 @@ The dataset was created by Max Little of the University of Oxford, in collaborat
 * The 'name' column identifies the patient, and the 'status' column indicates the health status (0 for healthy, 1 for PD).
 * There are approximately six recordings per patient.
 
-           For further information or comments, please contact Max Little (littlem '@'                robots.ox.ac.uk).
+For further information or comments, please contact Max Little (little '@' robots.ox.ac.uk).
 
 
 
@@ -48,7 +48,7 @@ We create tables with both of our separate datasets, as they store different val
 
 This repository contains a Python script for predicting motor UPDRS scores in individuals with Parkinson's disease using various machine learning models. The dataset used for this analysis is stored in the 'Data' directory, and the primary script, 'predict_parkinsons.py', demonstrates the entire pipeline, including data preprocessing, model training, and evaluation.
 ## Dataset
-For the prediction model we created we used the of 16 voice measurements from 42 people with early-stage Parkinson’s disease, which contained 5,875 recordings as well as calculated the total and motor values for the Unified Parkinson's Disease Rating Scale (UPDRS), which is what we would be predicting.
+For the prediction model we created we used the 16 voice measurements from 42 people with early-stage Parkinson’s disease, which contained 5,875 recordings as well as calculated the total and motor values for the Unified Parkinson's Disease Rating Scale (UPDRS), which is what we would be predicting.
 ## Model Training
 The dataset is split into training and testing sets using sklearn's train_test_split. Various regression models are trained, including Linear Regression, Decision Tree, Random Forest, and Gradient Boosting.
 ### Neural Network Model
@@ -110,7 +110,7 @@ In the evaluation of various machine learning models for detecting Parkinson's d
 In addition to comparing the above metrics, we also compared the classification reports for the different models. After taking these different model measurements into consideration we decided to proceed with a neural network.
 ## Optimizations:
 In order to optimize our neural network we made use of the Keras Tuner python library, constructing a hyperband parameter tuner to facilitate the best parameters for our model. 
-Optimizations regarding tuning are detailed in the following slides. Additionally, dense layers where all nodes were connected to preceding layers were found to provide highest accuracy.
+Optimizations regarding tuning are detailed in the following slides. Additionally, dense layers where all nodes were connected to preceding layers were found to provide the highest accuracy.
 Here is the final classification report for the model:
  
 Optimized Sequential Model Parameters
@@ -140,4 +140,4 @@ IEEE Transactions on Biomedical Engineering
 https://archive.ics.uci.edu/dataset/174/parkinsons
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3051371/
 
-Note: “H&Y” refers to the Hoehn and Yahr PD stage, where higher values indicate greater level of disability.
+Note: “H&Y” refers to the Hoehn and Yahr PD stage, where higher values indicate a greater level of disability.
