@@ -85,17 +85,20 @@ We created several different models to see which would best allow us to create s
 *	Creates and trains a Logistic Regression model.
 *	Prints training data score, makes predictions, and prints accuracy score, confusion matrix, and classification report.
 *	Visualizes the confusion matrix with a heatmap.
+*	
 ### Random Forest Classifier
 *	Creates and trains a Random Forest Classifier.
 *	Prints training and testing data scores.
 *	Makes predictions and prints accuracy score, confusion matrix, and classification report.
 *	Visualizes the confusion matrix with a heatmap.
+*	
 ### Support Vector Machine (SVM)
 *	Creates and trains a Support Vector Machine (SVM) classifier.
 *	Prints training data score, makes predictions, and prints accuracy score, confusion matrix, and classification report.
 *	Visualizes the confusion matrix with a heatmap.
+*	
 ## Neural Network
-<<<<<<< HEAD
+
 ●	Uses Keras Tuner to find optimal hyperparameters for a neural network model.
 ●	Creates and trains a neural network model using TensorFlow and Keras.
 ●	Prints the model summary, loss, and accuracy results.
@@ -110,7 +113,7 @@ We created several different models to see which would best allow us to create s
 *	Prints the model summary, loss, and accuracy results.
 *	Makes predictions, prints accuracy score, confusion matrix, and classification report.
 *	Visualizes the confusion matrix with a heatmap.
->>>>>>> d389034e41605528c54040b9c608439218d8d2b7
+
 ## 4. Model Visualizations
 *	Displays confusion matrix heatmaps for each model.
   
